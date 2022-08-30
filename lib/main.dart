@@ -13,6 +13,43 @@ class myApp extends StatelessWidget {
           title: Text("hi"),
           centerTitle: true,
         ),
+        body: Column(
+          children: <Widget>[
+            Row(
+              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+              children: <Widget>[
+                Container(
+                  color: Colors.red,
+                  width: 100,
+                  height: 100,
+                ),
+                Container(
+                  color: Colors.blue,
+                  width: 100,
+                  height: 100,
+                )
+              ],
+            ),
+            SizedBox(
+              height: 30,
+            ),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+              children: [
+                Container(
+                  color: Colors.yellow,
+                  width: 100,
+                  height: 100,
+                ),
+                Container(
+                  color: Colors.green,
+                  width: 100,
+                  height: 100,
+                ),
+              ],
+            )
+          ],
+        ),
       ),
     );
   }
