@@ -31,7 +31,7 @@ class myApp extends StatelessWidget {
               ],
             ),
             SizedBox(
-              height: 30,
+              height: 20,
             ),
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
